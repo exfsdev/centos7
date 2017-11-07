@@ -2,13 +2,14 @@
 wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-3.2.8.tgz
 
 ##解压 
-tar zxvf mongodb-linux-x86_64-rhel70-3.2.8.tgz 
-mv mongodb-linux-x86_64-rhel70-3.2.8 /usr/local/ 
-mv mongodb-linux-x86_64-rhel70-3.2.8 mongodb 
-cd mongodb/
-mkdir db 
-mkdir logs 
-cd bin/ 
+tar zxvf mongodb-linux-x86_64-rhel70-3.2.8.tgz    
+mv mongodb-linux-x86_64-rhel70-3.2.8 /usr/local/    
+cd /usr/local/    
+mv mongodb-linux-x86_64-rhel70-3.2.8 mongodb    
+cd mongodb/   
+mkdir db    
+mkdir logs    
+cd bin/     
 
 ##编辑配置文件： 
 vim mongodb.conf 
