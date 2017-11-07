@@ -11,7 +11,8 @@ mkdir db
 mkdir logs    
 cd bin/     
 
-##编辑配置文件：     
+##编辑配置文件：   
+yum -y install vim      
 vim mongodb.conf    
 
 ##输入以下内容：     
